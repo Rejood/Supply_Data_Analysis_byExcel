@@ -9,15 +9,16 @@ We need to understand:
 2)	Where are the hours of oversupply? Can we shift some of them to undersupply hours?
 
 Needed output:
-1.	Show which 36 hours in a week are most undersupplied. Show/describe your decision based on sample data.--> sheet demand -find 36 minimum coverage rate
-2.	24-hour curve of average supply and demand (to illustrate match/mismatch).--> average of each unique hours during 5 weeks for o car and saw +1 car x axis = 24 hours , y axis= column 1+column 2  with column 2
-3.	Visualization of hours where we lack supply during a weekly period. This one we can send to drivers to show when to online for extra hours.2ta nemoodar har do x=24 saat(average tedade lack ha dar saat bar asase 7 ruze hafte) , y= tedade lack ha yeki plot e 7 rooze hafte  yeki sotoon ha rooye ham rooz haye hafte bashan
+1.	Show which 36 hours in a week are most undersupplied. Show/describe your decision based on sample data.
+2.	24-hour curve of average supply and demand (to illustrate match/mismatch).
+3.	Visualization of hours where we lack supply during a weekly period. This one we can send to drivers to show when to online for extra hours.
 
-4.	Estimate number of hours needed to ensure we have a high Coverage Ratio during most peak hours. = 18h *.85/.78  ba farze inke .85 high coverage bashe  high coverage ra be quartile peida mikonim
+4.	Estimate number of hours needed to ensure we have a high Coverage Ratio during most peak hours.
 5.	Calculate levels of guaranteed hourly earnings we can offer to drivers during 36 weekly hours with highest demand without losing money + how much extra hours we want to get to capture missed demand.
 a.	Assume that Finished Rides have an average value of €10 (80% goes to driver, 20% is our revenue).
 b.	Assume the same level of demand with increased supply, base it on RPH over 3 hour periods, but with increased supply.
 c.	Assume that with extra hours we will capture “missed coverage” or people attributed to “People saw 0 cars” in demand data.
+
 Sample Supply data info (Hourly DriverActivity.csv)
 Shows aggregated driver activity in a city for a given period.
 
