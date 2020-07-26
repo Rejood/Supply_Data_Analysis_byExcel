@@ -24,17 +24,20 @@ Shows aggregated driver activity in a city for a given period.
 
 Details:
 ●	Hourly data for 5 full weeks from 2016-11-14 until 2016-12-18
+
 ●	Real data from a recent launch in a competitive city (2 big apps for years)
+
 ●	Fields:
-○	Date – date + hour for which the row of data is presented
-○	Active drivers – number of active drivers (any level of activity) available during time period
-○	Online (h) – total supply hours that were available during time period
-○	Has booking (h) – total hours during which drivers had a client booking (any state)
-○	Waiting for booking (h) – total hours which drivers spent waiting for booking
-○	Busy (h) – total hours which drivers were not available to take orders in
-○	Hours per active driver – average number of hours each driver was online during time period
-○	Rides per online hour – aka RPH – avg. finished trips per online hour during period
-○	Finished Rides – number of finished trips during period
+
+●	Date – date + hour for which the row of data is presented
+●	Active drivers – number of active drivers (any level of activity) available during time period
+●	Online (h) – total supply hours that were available during time period
+●	Has booking (h) – total hours during which drivers had a client booking (any state)
+●	Waiting for booking (h) – total hours which drivers spent waiting for booking
+●	Busy (h) – total hours which drivers were not available to take orders in
+● Hours per active driver – average number of hours each driver was online during time period
+●	Rides per online hour – aka RPH – avg. finished trips per online hour during period
+●	Finished Rides – number of finished trips during period
 ●	Note the data is sorted with more recent data first
 ●	Note that is time period has 0 values in all columns, it would be skipped (no row)
 
@@ -44,10 +47,10 @@ Shows how many people saw a car in the app when setting the pickup marker on the
 Details:
 ●	The data is from the same period as Supply data above.
 ●	Fields:
-○	Date – date + hour for which the row of data is presented
-○	People saw 0 cars (unique) – number of users who didn’t not see a car.
-○	People saw +1 cars (unique) – number of users who saw a car.
-○	Coverage Ratio (unique) – % of users who saw the car.
+●	Date – date + hour for which the row of data is presented
+●	People saw 0 cars (unique) – number of users who didn’t not see a car.
+●	People saw +1 cars (unique) – number of users who saw a car.
+●	Coverage Ratio (unique) – % of users who saw the car.
 ●	Note the data is sorted with more recent data first
 ●	Note that is time period has 0 values in all columns, it would be skipped (no row)
 
